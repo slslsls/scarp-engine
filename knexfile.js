@@ -1,7 +1,7 @@
 module.exports = {
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/data/scarp_mocks'
+    connection: 'postgres://localhost/scarp_mocks'
   },
   production: {
     client: 'pg',

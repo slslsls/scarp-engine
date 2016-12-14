@@ -302,3 +302,111 @@ FATAL:  database "data/scarp_mocks" does not exist
 FATAL:  database "data/scarp_mocks" does not exist
 FATAL:  database "data/scarp_mocks" does not exist
 FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+ERROR:  relation "projects" already exists
+STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
+ERROR:  relation "projects" already exists
+STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
+ERROR:  relation "projects" already exists
+STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create table "posts" ("id" serial primary key, "created_at" timestamptz, "updated_at" timestamptz, "category" varchar(255), "title" varchar(255), "content" varchar(255))
+ERROR:  relation "projects" already exists
+STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create table "posts" ("id" serial primary key, "created_at" timestamptz, "updated_at" timestamptz, "category" varchar(255), "title" varchar(255), "content" varchar(255))
+ERROR:  relation "projects" already exists
+STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create table "posts" ("id" serial primary key, "created_at" timestamptz, "updated_at" timestamptz, "category" varchar(255), "title" varchar(255), "content" varchar(255))
+ERROR:  relation "projects" already exists
+STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create table "posts" ("id" serial primary key, "created_at" timestamptz, "updated_at" timestamptz, "category" varchar(255), "title" varchar(255), "content" varchar(255))
+ERROR:  relation "projects" already exists
+STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create table "posts" ("id" serial primary key, "created_at" timestamptz, "updated_at" timestamptz, "category" varchar(255), "title" varchar(255), "content" varchar(255))
