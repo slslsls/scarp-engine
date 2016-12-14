@@ -1,0 +1,202 @@
+LOG:  database system was shut down at 2016-12-14 12:29:59 PST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "spencerscarpelli" does not exist
+FATAL:  database "spencerscarpelli" does not exist
+ERROR:  syntax error at or near "dt" at character 1
+STATEMENT:  dt;
+ERROR:  syntax error at or near "-" at character 18
+STATEMENT:  create table test-table(
+	id serial primary key,
+	name varchar(20),
+	age smallint
+	)
+	;
+ERROR:  syntax error at or near "-" at character 18
+STATEMENT:  create table test-table(
+	id serial primary key,
+	name varchar(20),
+	age smallint
+	)
+	;
+ERROR:  syntax error at or near "[" at character 1
+STATEMENT:  [A[A
+	create table testtable(
+	id serial primary key,
+	name varchar(20),
+	age smallint
+	);
+ERROR:  syntax error at or near "exit" at character 1
+STATEMENT:  exit
+	;
+ERROR:  relation "testtable" does not exist at character 15
+STATEMENT:  SELECT * FROM testtable;
+ERROR:  syntax error at or near "d" at character 1
+STATEMENT:  d
+	;
+ERROR:  syntax error at or near "dt" at character 1
+STATEMENT:  dt;
+ERROR:  syntax error at or near "dt" at character 1
+STATEMENT:  dt
+	;
+ERROR:  syntax error at or near "d" at character 1
+STATEMENT:  d testtable
+	;
+ERROR:  syntax error at or near "describe" at character 1
+STATEMENT:  describe testtable;
+ERROR:  syntax error at or near "dt" at character 1
+STATEMENT:  dt testtable;
+ERROR:  syntax error at or near "/" at character 1
+STATEMENT:  /d;
+ERROR:  syntax error at or near "d" at character 1
+STATEMENT:  d/;
+ERROR:  syntax error at or near "testtable" at character 1
+STATEMENT:  testtable
+	;
+ERROR:  syntax error at or near "exit" at character 1
+STATEMENT:  exit
+	;
+FATAL:  database "spencerscarpelli" does not exist
+ERROR:  syntax error at or near "creat" at character 1
+STATEMENT:  creat table posts(
+	id serial primary key,
+	date timestamp,
+	category varchar(100),
+	title varchar(100),
+	content text
+	);
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
+FATAL:  database "data/scarp_mocks" does not exist
