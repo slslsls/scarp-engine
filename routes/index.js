@@ -3,21 +3,18 @@ var router = express.Router();
 var knex = require('../db/knex');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  var responseObject = {}
-
-  Promise.all([
-    knex.select().from('projects').then(data => {
-      responseObject.projects = data;
-    }),
-    knex.select().from('posts').then(data => {
-      responseObject.posts = data;
-    })
-  ]).then(values => {
-    res.send(responseObject);
+router.get('/projects', function(req, res, next) {
+  knex.select().from('projects').then(data => {
+    res.send(data);
     res.end();
-  }).catch(err => {
-    console.log('Shit, an error: ' + err);
+  });
+});
+
+router.get('/posts', function(req, res, next) {
+  knex.select().from('posts').then(data => {
+    responseObject.posts = data;
+    res.send(data);
+    res.end();
   });
 });
 

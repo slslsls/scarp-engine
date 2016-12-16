@@ -410,3 +410,35 @@ ERROR:  relation "projects" already exists
 STATEMENT:  create table "projects" ("id" serial primary key, "name" varchar(255), "description" varchar(255), "technologies" varchar(255), "github_url" varchar(255), "deployment_url" varchar(255))
 ERROR:  current transaction is aborted, commands ignored until end of transaction block
 STATEMENT:  create table "posts" ("id" serial primary key, "created_at" timestamptz, "updated_at" timestamptz, "category" varchar(255), "title" varchar(255), "content" varchar(255))
+FATAL:  database "spencerscarpelli" does not exist
+FATAL:  database "scarp" does not exist
+ERROR:  syntax error at or near "SELECT" at character 45
+STATEMENT:  ALTER TABLE projects DROP COLUMN github_url
+	SELECT * FROM projects;
+ERROR:  syntax error at or near "(" at character 33
+STATEMENT:  ALTER TABLE projects ADD COLUMN (
+	screenshots TEXT,
+	github_url TEXT,
+	deployment_url TEXT);
+ERROR:  column "Scarps Travel Agency" does not exist at character 144
+STATEMENT:  UPDATE projects SET screenshots = "shopping-cart-3.png", github_url = "github blah blah", deployment_url = "deployment blah blah" WHERE name = "Scarps Travel Agency";
+ERROR:  syntax error at or near "Travel" at character 151
+STATEMENT:  UPDATE projects SET screenshots = "shopping-cart-3.png", github_url = "github blah blah", deployment_url = "deployment blah blah" WHERE name = Scarps Travel Agency;
+ERROR:  column "scarps" does not exist at character 144
+STATEMENT:  UPDATE projects SET screenshots = "shopping-cart-3.png", github_url = "github blah blah", deployment_url = "deployment blah blah" WHERE name = Scarps
+	;
+ERROR:  syntax error at or near "Travel" at character 152
+STATEMENT:  UPDATE projects SET screenshots = "shopping-cart-3.png", github_url = "github blah blah", deployment_url = "deployment blah blah" WHERE name = (Scarps Travel Agency);
+ERROR:  column "shopping-cart-3.png" does not exist at character 35
+STATEMENT:  UPDATE projects SET screenshots = "shopping-cart-3.png", github_url = "github blah blah", deployment_url = "deployment blah blah" WHERE id = 1;
+ERROR:  syntax error at or near "WHERE" at character 139
+STATEMENT:  INSERT INTO projects (screenshots, github_url, deployment_url) VALUES ("shopping-cart-3.png", "github blah blah", "deployment blah blah") WHERE id = 1;
+ERROR:  column "Scarps Travel Agency" does not exist at character 106
+STATEMENT:  INSERT INTO projects (name, description, technologies, screenshots, github_url, deployment_url)
+	VALUES (
+	"Scarps Travel Agency",
+	"A travel agency that helps you plan trips",
+	"html, css",
+	"shopping-cart-3.png",
+	"github blah blah",
+	"heroku blah blah");

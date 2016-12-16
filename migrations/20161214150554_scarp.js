@@ -6,6 +6,7 @@ exports.up = function(knex, Promise) {
       table.string('name');
       table.string('description');
       table.string('technologies');
+      table.string('screenshots');
       table.string('github_url');
       table.string('deployment_url');
     }),
@@ -25,3 +26,16 @@ exports.down = function(knex, Promise) {
     knex.schema.dropTable('posts')
   ]);
 }
+
+/*
+
+INSERT INTO projects (name, description, technologies, screenshots, github_url, deployment_url)
+VALUES (
+'Scarps Travel Agency',
+'A travel agency that helps you plan trips',
+'html, css',
+'shopping-cart-3.png',
+'github blah blah',
+'heroku blah blah');
+
+*/
