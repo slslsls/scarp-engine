@@ -12,7 +12,6 @@ router.get('/projects', function(req, res, next) {
 
 router.get('/posts', function(req, res, next) {
   knex.select().from('posts').then(data => {
-    responseObject.posts = data;
     res.send(data);
     res.end();
   });
