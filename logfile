@@ -452,3 +452,10 @@ STATEMENT:  INSERT INTO projects (name, description, technologies, screenshots, 
 	'github blah blah',
 	sdkjgfhkjsgf;
 	,)nkjlskdjf;
+LOG:  received SIGHUP, reloading configuration files
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 9280) running in data directory "/usr/local/var/postgres"?
