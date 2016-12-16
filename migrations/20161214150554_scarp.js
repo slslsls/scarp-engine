@@ -38,4 +38,13 @@ VALUES (
 'github blah blah',
 'heroku blah blah');
 
+
+INSERT INTO projects (name, description, technologies, screenshots, github_url, deployment_url)
+VALUES (
+'The Pet Shop',
+'A place to adopt a pet',
+'angular, CLIs',
+'in-other-words-1.png',
+'zvcxvczxvzcx',
+'roptiyuprotiyu');
 */

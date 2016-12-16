@@ -442,3 +442,13 @@ STATEMENT:  INSERT INTO projects (name, description, technologies, screenshots, 
 	"shopping-cart-3.png",
 	"github blah blah",
 	"heroku blah blah");
+ERROR:  syntax error at or near ";" at character 243
+STATEMENT:  INSERT INTO projects (name, description, technologies, screenshots, github_url, deployment_url)
+	VALUES (
+	'Scarps Travel Agency',
+	'A travel agency that helps you plan trips',
+	'html, css',
+	'shopping-cart-3.png',
+	'github blah blah',
+	sdkjgfhkjsgf;
+	,)nkjlskdjf;
